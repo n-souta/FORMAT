@@ -1,0 +1,22 @@
+/*========================================================================
+base layout
+========================================================================*/
+html {
+  box-sizing: border-box;
+  font-size: 75%;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+
+  @media screen and (min-width: 768px) {
+    font-size: 87.5%;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 100%;
+  }
+}
+
+body{
+  font-size: 1em;
+  line-height: 1.5;
+}
