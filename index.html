@@ -9,5 +9,60 @@
 </head>
 <body>
 
+  <!-- header -->
+  <header class="global-header">
+    <div class="global-header__container">
+      
+      <nav class="global-header__nav" id="js-global-header__nav" aria-hidden="true">
+        
+        <div class="drawer-menu__overlay" tabindex="-1" data-micromodal-close>
+          <div class="drawer-menu__container">
+            <ul class="drawer-menu__list">
+              <li class="drawer-menu__item">
+                <a href="#" class="drawer-menu__link">works</a>
+              </li>
+              <li class="drawer-menu__item">
+                <a href="#" class="drawer-menu__link">about</a>
+              </li>
+              <li class="drawer-menu__item">
+                <a href="#" class="drawer-menu__link">contact</a>
+              </li>
+            </ul>
+            <div class="drawer-menu__close-button" aria-label="メニューを閉じる" data-micromodal-close>
+              <span class="drawer-menu__close-button-bar" data-micromodal-close></span>
+            </div>
+          </div>
+        </div>
+        
+      </nav>
+      
+      <div class="drawer-menu__open-button" data-micromodal-trigger="js-global-header__nav" role="button" aria-label="メニューを開く">
+        <span class="drawer-menu__open-button-bar"></span>
+      </div>
+  
+    </div>
+  </header>
+
+  <!-- btn  -->
+  <div class="btn-group">
+
+    <a href="#" class="btn btn--dark btn--bg-dark btn--small btn--square">
+      <span>詳細をみる</span>
+    </a>
+    
+    <a href="#" class="btn btn--light btn--bg-light btn--large btn--rounded">
+      <span>詳細をみる</span>
+    </a>
+
+  </div>
+
+
+
+
+
+
+  <script src="assets/js/plugin/micromodal.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="/assets/js/app.js"></script>
 </body>
 </html>

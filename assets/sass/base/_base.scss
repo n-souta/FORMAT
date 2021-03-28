@@ -1,6 +1,15 @@
+@use "../base/setting";
 /*========================================================================
 base layout
 ========================================================================*/
+*{
+  margin:0;
+  padding:0;
+}
+*:focus {
+  outline: none;
+}
+
 html {
   box-sizing: border-box;
   font-size: 75%;
@@ -19,4 +28,8 @@ html {
 body{
   font-size: 1em;
   line-height: 1.5;
+}
+
+li{
+  list-style: none;
 }

@@ -1,0 +1,56 @@
+@use "../base/setting" as setting;
+/*———————————
+
+_btn.scss
+
+———————————*/
+
+/*
+btn
+———————————*/
+.btn{
+    display: inline-block;
+    text-decoration: none;
+}
+
+/*
+文字色
+———————————*/
+.btn--dark{
+    color:setting.$light;
+}
+.btn--light{
+    color:setting.$dark;
+}
+
+/*
+背景色
+———————————*/
+.btn--bg-dark{
+    background:setting.$dark;
+    border:1px solid setting.$dark;
+}
+.btn--bg-light{
+    background:setting.$light;
+    border:1px solid setting.$dark;
+}
+
+/*
+大きさ
+———————————*/
+.btn--small{
+    padding:5px 15px;
+}
+.btn--large{
+    padding:10px 30px;
+}
+
+/*
+形状
+———————————*/
+.btn--square{
+    border-radius: 0;
+}
+.btn--rounded{
+    border-radius: 100vh;
+}
